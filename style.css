@@ -1,0 +1,63 @@
+* {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: #405D72;
+}
+body {
+    background-color: #FFF8F3;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.mainBox {
+    background-color: #F7E7DC;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.displayBox {
+    background-color: #FFF8F3;
+    padding: 10px;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 0% 5% 5% 0%;
+}
+.homeCardContainer {
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+}
+.homeCard {
+    background-color: #FFF8F3;
+    color: #405D72;
+}
+.homeCard:hover {
+    background-color: #F7E7DC;
+}
+.addBox{
+    position: fixed;
+    background-color: #405D72;
+    height: 100vh;
+    width: 100vh;
+    opacity: 50%;
+}
+.addDeviceBox {
+    position: fixed;
+    background-color: #758694;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* visibility: hidden; */
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+.form-group label {
+    color: #FFF8F3;
+}
